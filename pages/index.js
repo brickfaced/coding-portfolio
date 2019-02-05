@@ -1,5 +1,4 @@
 import Layout from '../components/MyLayout.js'
-import Link from 'next/link'
 
 function getProjects () {
   return [
@@ -32,9 +31,7 @@ function getProjects () {
 
 const ProjectLink = ({ project }) => (
   <li>
-    <Link as={`/p/${project.id}`} href={`/project?title=${project.title}`}>
-      <a>{project.title}</a>
-    </Link>
+    {project.title}
     <style jsx>{`
       li {
         list-style: none;
