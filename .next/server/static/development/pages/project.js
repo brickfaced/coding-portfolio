@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -179,23 +179,9 @@ var Header = function Header() {
       lineNumber: 6
     },
     __self: this
-  }, "Ramon Mendoza")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-562200554",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Ramon Mendoza")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "562200554",
-    css: "a.jsx-562200554{-webkit-text-decoration:none;text-decoration:none;color:blue;font-family:\"Arial\";margin-right:1000px;}a.jsx-562200554:hover{opacity:0.6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9icmlja2ZhY2VkL1JlYWN0IFByb2plY3RzL2NvZGluZy1wb3J0Zm9saW8vY29tcG9uZW50cy9wcmVzZW50YXRpb25hbC9IZWFkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVWdCLEFBRzhCLEFBT1QsWUFDZCxzQ0FQYSxXQUNTLG9CQUNBLG9CQUN0QiIsImZpbGUiOiIvVXNlcnMvYnJpY2tmYWNlZC9SZWFjdCBQcm9qZWN0cy9jb2RpbmctcG9ydGZvbGlvL2NvbXBvbmVudHMvcHJlc2VudGF0aW9uYWwvSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5jb25zdCBIZWFkZXIgPSAoKSA9PiAoXG4gIDxkaXY+XG4gICAgPExpbmsgaHJlZj0nLyc+XG4gICAgICA8YT5SYW1vbiBNZW5kb3phPC9hPlxuICAgIDwvTGluaz5cbiAgICA8TGluayBocmVmPScvYWJvdXQnPlxuICAgICAgPGE+QWJvdXQ8L2E+XG4gICAgPC9MaW5rPlxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGEge1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgIGNvbG9yOiBibHVlO1xuICAgICAgICBmb250LWZhbWlseTogXCJBcmlhbFwiO1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDEwMDBweDtcbiAgICAgIH1cblxuICAgICAgYTpob3ZlciB7XG4gICAgICAgIG9wYWNpdHk6IDAuNjtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIZWFkZXJcbiJdfQ== */\n/*@ sourceURL=/Users/brickfaced/React Projects/coding-portfolio/components/presentational/Header.js */",
+    css: "a.jsx-562200554{-webkit-text-decoration:none;text-decoration:none;color:blue;font-family:\"Arial\";margin-right:1000px;}a.jsx-562200554:hover{opacity:0.6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9icmlja2ZhY2VkL1JlYWN0IFByb2plY3RzL2NvZGluZy1wb3J0Zm9saW8vY29tcG9uZW50cy9wcmVzZW50YXRpb25hbC9IZWFkZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT2dCLEFBRzhCLEFBT1QsWUFDZCxzQ0FQYSxXQUNTLG9CQUNBLG9CQUN0QiIsImZpbGUiOiIvVXNlcnMvYnJpY2tmYWNlZC9SZWFjdCBQcm9qZWN0cy9jb2RpbmctcG9ydGZvbGlvL2NvbXBvbmVudHMvcHJlc2VudGF0aW9uYWwvSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5jb25zdCBIZWFkZXIgPSAoKSA9PiAoXG4gIDxkaXY+XG4gICAgPExpbmsgaHJlZj0nLyc+XG4gICAgICA8YT5SYW1vbiBNZW5kb3phPC9hPlxuICAgIDwvTGluaz5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICBhIHtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICBjb2xvcjogYmx1ZTtcbiAgICAgICAgZm9udC1mYW1pbHk6IFwiQXJpYWxcIjtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAxMDAwcHg7XG4gICAgICB9XG5cbiAgICAgIGE6aG92ZXIge1xuICAgICAgICBvcGFjaXR5OiAwLjY7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyXG4iXX0= */\n/*@ sourceURL=/Users/brickfaced/React Projects/coding-portfolio/components/presentational/Header.js */",
     __self: this
   }));
 };
@@ -246,16 +232,16 @@ var _jsxFileName = "/Users/brickfaced/React Projects/coding-portfolio/pages/proj
       lineNumber: 7
     },
     __self: this
-  }, "Project Page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "1207028965",
-    css: "h1.jsx-1207028965{font-family:Arial;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9icmlja2ZhY2VkL1JlYWN0IFByb2plY3RzL2NvZGluZy1wb3J0Zm9saW8vcGFnZXMvcHJvamVjdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTZ0IsQUFHMkIsa0JBQ3BCIiwiZmlsZSI6Ii9Vc2Vycy9icmlja2ZhY2VkL1JlYWN0IFByb2plY3RzL2NvZGluZy1wb3J0Zm9saW8vcGFnZXMvcHJvamVjdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dC5qcydcbmltcG9ydCB7IHdpdGhSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcidcblxuZXhwb3J0IGRlZmF1bHQgd2l0aFJvdXRlcigocHJvcHMpID0+IChcbiAgPExheW91dD5cbiAgICA8aDE+e3Byb3BzLnJvdXRlci5xdWVyeS50aXRsZX08L2gxPlxuICAgIDxkaXY+XG4gICAgICBQcm9qZWN0IFBhZ2VcbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICBoMSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiBBcmlhbDtcbiAgICAgIH1cbiAgYH08L3N0eWxlPlxuICA8L0xheW91dD5cbikpXG4iXX0= */\n/*@ sourceURL=/Users/brickfaced/React Projects/coding-portfolio/pages/project.js */",
+    css: "h1.jsx-1207028965{font-family:Arial;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9icmlja2ZhY2VkL1JlYWN0IFByb2plY3RzL2NvZGluZy1wb3J0Zm9saW8vcGFnZXMvcHJvamVjdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTZ0IsQUFHMkIsa0JBQ3BCIiwiZmlsZSI6Ii9Vc2Vycy9icmlja2ZhY2VkL1JlYWN0IFByb2plY3RzL2NvZGluZy1wb3J0Zm9saW8vcGFnZXMvcHJvamVjdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dC5qcydcbmltcG9ydCB7IHdpdGhSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcidcblxuZXhwb3J0IGRlZmF1bHQgd2l0aFJvdXRlcigocHJvcHMpID0+IChcbiAgPExheW91dD5cbiAgICA8aDE+e3Byb3BzLnJvdXRlci5xdWVyeS50aXRsZX08L2gxPlxuICAgIDxkaXY+XG4gICAgICB7fVxuICAgIDwvZGl2PlxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGgxIHtcbiAgICAgICAgZm9udC1mYW1pbHk6IEFyaWFsO1xuICAgICAgfVxuICBgfTwvc3R5bGU+XG4gIDwvTGF5b3V0PlxuKSlcbiJdfQ== */\n/*@ sourceURL=/Users/brickfaced/React Projects/coding-portfolio/pages/project.js */",
     __self: this
   }));
 }));
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!********************************!*\
   !*** multi ./pages/project.js ***!
   \********************************/

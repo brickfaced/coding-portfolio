@@ -5,9 +5,6 @@ const Header = () => (
     <Link href='/'>
       <a>Ramon Mendoza</a>
     </Link>
-    <Link href='/about'>
-      <a>About</a>
-    </Link>
     <style jsx>{`
       a {
         text-decoration: none;
