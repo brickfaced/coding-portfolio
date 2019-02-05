@@ -1,18 +1,39 @@
 import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 
-function getPosts () {
+function getProjects () {
   return [
-    { id: 'hello-nextjs', title: 'Hello Next.js' },
-    { id: 'learn-nextjs', title: 'Learn Next.js is awesome' },
-    { id: 'deploy-nextjs', title: 'Deploy apps with ZEIT' }
+    {
+      id: 'pyface',
+      title: 'PyFace',
+      description: 'A face-scanning verficiation program built on Raspberry Pi',
+      technology: ''
+    },
+    {
+      id: 'artsy',
+      title: 'ARTSY',
+      description: 'An iOS art marketplace with emphasis on the "ar" in art. As long as you have an augmented reality supported device, you can preview all the art true to scale in your house',
+      technology: ''
+    },
+    {
+      id: 'awsom',
+      title: 'AWSOM',
+      description: 'Want to get into music? AWSOM is a top of the line music teaching service that pairs you with great mentors that revolve around your needs',
+      technology: ''
+    },
+    {
+      id: 'lendme',
+      title: 'LendMe',
+      description: '',
+      technology: 'An iOS application that helps college students look for tutors in their area'
+    }
   ]
 }
 
-const PostLink = ({ post }) => (
+const ProjectLink = ({ project }) => (
   <li>
-    <Link as={`/p/${post.id}`} href={`/post?title=${post.title}`}>
-      <a>{post.title}</a>
+    <Link as={`/p/${project.id}`} href={`/project?title=${project.title}`}>
+      <a>{project.title}</a>
     </Link>
     <style jsx>{`
       li {
@@ -35,10 +56,10 @@ const PostLink = ({ post }) => (
 
 export default () => (
   <Layout>
-    <h1>My Blog</h1>
+    <h1>Projects</h1>
     <ul>
-      {getPosts().map((post) => (
-        <PostLink key={post.id} post={post} />
+      {getProjects().map((project) => (
+        <ProjectLink key={project.id} project={project} />
       ))}
     </ul>
     <style jsx>{`
