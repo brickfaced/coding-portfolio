@@ -1,16 +1,22 @@
-import Header from './presentational/Header'
+import React from 'react';
 
-const Layout = (props) => (
-  <div>
-    <Header />
-    {props.children}
-    <style jsx>{`
-      div {
-        margin: 20px;
-        padding: 20px;
-      } 
-  `}</style>
-  </div>
-)
+import Header from './presentational/Header';
 
-export default Layout
+const Layout = element => {
+  return (
+    <div>
+      <Header />
+      {element.children}
+      <style jsx>
+        {`
+          div {
+            margin: 20px;
+            padding: 20px;
+          }
+        `}
+      </style>
+    </div>
+  );
+};
+
+export default Layout;
