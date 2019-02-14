@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import ProjectLink from '../presentational/ProjectLink';
+import ProjectDisplay from '../presentational/ProjectDisplay';
 
 function getProjects() {
   return [
@@ -42,41 +43,48 @@ function getProjects() {
   ];
 }
 
-const Projects = () => (
-  <div>
-    <h1>My Projects</h1>
-    <ul>
-      {getProjects().map(project => (
-        <ProjectLink key={project.id} project={project} />
-      ))}
-    </ul>
-    <style jsx>
-      {`
-        h1,
-        a {
-          font-family: 'Arial';
-        }
+class Projects extends Component {
+  state = {};
 
-        ul {
-          padding: 0;
-        }
+  render() {
+    return (
+      <div>
+        <h1>My Projects</h1>
+        <ProjectDisplay />
+        <ul>
+          {getProjects().map(project => (
+            <ProjectLink key={project.id} project={project} />
+          ))}
+        </ul>
+        <style jsx>
+          {`
+            h1,
+            a {
+              font-family: 'Arial';
+            }
 
-        li {
-          list-style: none;
-          margin: 5px 0;
-        }
+            ul {
+              padding: 0;
+            }
 
-        a {
-          text-decoration: none;
-          color: blue;
-        }
+            li {
+              list-style: none;
+              margin: 5px 0;
+            }
 
-        a:hover {
-          opacity: 0.6;
-        }
-      `}
-    </style>
-  </div>
-);
+            a {
+              text-decoration: none;
+              color: blue;
+            }
+
+            a:hover {
+              opacity: 0.6;
+            }
+          `}
+        </style>
+      </div>
+    );
+  }
+}
 
 export default Projects;
