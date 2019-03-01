@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const Header = () => (
-  <div>
+  <>
     <Link href="/">
       <p>Ramon Mendoza</p>
     </Link>
@@ -21,7 +21,7 @@ const Header = () => (
         }
       `}
     </style>
-  </div>
+  </>
 );
 
 export default Header;

@@ -20,10 +20,11 @@
   },
   "homepage": "https://github.com/brickfaced/coding-portfolio#readme",
   "dependencies": {
+    "eslint-config-react-app": "^3.0.7",
     "express": "^4.16.4",
-    "next": "^7.0.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
